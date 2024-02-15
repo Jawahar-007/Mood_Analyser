@@ -11,6 +11,7 @@ public class MoodAnalyserException extends Exception {
         super(reason);
         this.error = error;
     }
+
     public MoodAnalyser.ErrorType errorType(){
         return error;
     }
